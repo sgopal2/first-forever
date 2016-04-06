@@ -26,7 +26,7 @@ public class LambdaWithComparator {
 		System.out.println(books2);
 		//New approach - without argument type
 		List<Book> books3 = getBookList();
-		Collections.sort(books3, (Book b1, Book b2) -> b1.getTitle().compareTo(b2.getTitle()));
+		Collections.sort(books3, (b1, b2) -> b1.getTitle().compareTo(b2.getTitle()));
 		System.out.println(books3);
 	}
 
