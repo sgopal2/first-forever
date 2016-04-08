@@ -6,6 +6,7 @@
   <dependencies>
 		
   </dependencies>
+  <dependencyManagement></dependencyManagement>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
